@@ -155,13 +155,14 @@ Shape and Reshape
 
 Indexing and Slicing
 ---------------------
-	Indexing	1D 	- 	[0 1 2 3 4]
-				2D	-	[[0,1] 0
-						[2,3]] 1
-				3D	-	[[[1,2] 0
-						  [1,2] 1
-						  [2,3]]] 2
-				calling arr arr[row, col]
+	Indexing	
+ 			1D 	- 	[0 1 2 3 4]
+			2D	-	[[0,1] 0
+					[2,3]] 1
+			3D	-	[[[1,2] 0
+					  [1,2] 1
+					  [2,3]]] 2
+			calling arr arr[row, col]
 	
 	Slicing array
 		arr_slicing[Start:Stop:Step]
@@ -215,7 +216,7 @@ Another way merging:
 Handling the array with condition:
 -----------------------------------
 	arr = np.array(arr1)
-	arr[arr > 5]								#will return the array vaalue which is greater than 5
+	arr[arr > 5]						#will return the array vaalue which is greater than 5
 
 
 Certainly! NumPy is a fundamental library in Python for numerical computations, and it's widely used in Data Science for array manipulation, mathematical operations, and more. Here are some key NumPy topics that are important for Data Science:
