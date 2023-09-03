@@ -1,3 +1,7 @@
+"""
+Used function = | nDim | Zeros | Once | Eye | Empty |
+"""
+
 import numpy as np
 
 # Ndim Function
