@@ -28,9 +28,21 @@ Crating Array
 	Once:
 		arr = np.once(4)
 		arr = np.once((2,3))
+		Output: 
+			   [[1 1 1 1 1]
+				[1 1 1 1 1]
+				[1 1 1 1 1]]
 
-	Empty:
+	Empty:						#Return the array with given shape and data type
 		arr = np.empty(4)
+	
+	Eye Function:
+		np.eye(4, dtype = int)
+		 output:
+		 	   [[1 0 0 0]
+				[0 1 0 0]
+				[0 0 1 0]
+				[0 0 0 1]]
 							
 	Arrange:
 		np.arrange(1,11)					#will return 1 to 10
