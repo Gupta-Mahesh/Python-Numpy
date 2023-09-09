@@ -45,3 +45,19 @@ print("Empty Function:\n",np.empty(shape=(4,5), dtype=int, order="C"))
     [5701664 7471215 5439595 6357104 6619235]
     [5242972 7602297 7274600 6226030 7667790]] 
 """
+
+#Flatten array
+
+arr_temp = np.empty(shape=(4,5), dtype=int, order="C")
+print("Temp array:\n",arr_temp)
+
+arr_flat = arr_temp.flatten()
+print("flatten array:\n",arr_flat)
+
+
+#seed function
+"""The seed() function in NumPy is used to set the random seed of the NumPy pseudo-random number generator. It offers a crucial input that NumPy needs to produce pseudo-random integers for random processes and other applications. By default, the random number generator uses the current system time."""
+
+np.random.seed(3)
+arr_rand = np.random.randint(1,12,(3,5))
+print("Random number using seed function():\n",arr_rand)
