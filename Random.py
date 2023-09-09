@@ -34,3 +34,4 @@ print("Random.rand(4):\n",rand_num6)
 
 rand_num7 = np.random.ranf(5)
 print("random.ranf(5):\n",rand_num7)
+
